@@ -22,7 +22,7 @@ st.title(" k-Means Clustering Visualizer by Dondi Tonphot")
 st.set_page_config(page_title="k-means Clustering App", layout="centered")
 
 #load dataset
-X, _ = make_blobs(n_samples=300, centers=loaded_model, cluster_std=0.60, random_state=0)
+X, _ = make_blobs(n_samples=300, centers=4, cluster_std=0.60, random_state=0)
 
 y_kmeans = loaded_model.predict(X)
 
