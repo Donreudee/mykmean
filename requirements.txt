@@ -1,4 +1,4 @@
 streamlit
-pickle
+pickle-mixin
 matplotlib
-sklearn
+scikit-learn
